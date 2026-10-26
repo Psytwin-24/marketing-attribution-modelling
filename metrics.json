@@ -1,0 +1,161 @@
+{
+ "results": {
+  "sessions": 1350,
+  "unique_paths": 898,
+  "converted_sessions": 1193,
+  "conversion_rate": 0.8837,
+  "distinct_steps": 16,
+  "absorption_prob_baseline": 0.8837,
+  "top_step_by_removal_effect": "Homepage",
+  "first_touch_vs_markov_total_variation": 0.389,
+  "time_decay_vs_markov_total_variation": 0.4354,
+  "touchpoint_granularity": "on-site page steps, not media channels"
+ },
+ "table": {
+  "title": "Credit share by model (each column sums to 1)",
+  "headers": [
+   "step",
+   "first touch",
+   "last touch",
+   "linear",
+   "time decay",
+   "markov removal"
+  ],
+  "rows": [
+   [
+    "Homepage",
+    0.4317,
+    0,
+    0.1948,
+    0.1025,
+    0.1879
+   ],
+   [
+    "Checkout",
+    0.0369,
+    0.5943,
+    0.2188,
+    0.4162,
+    0.1525
+   ],
+   [
+    "Coupon",
+    0.1626,
+    0.4057,
+    0.226,
+    0.3133,
+    0.1416
+   ],
+   [
+    "Other",
+    0.2414,
+    0,
+    0.097,
+    0.0451,
+    0.1173
+   ],
+   [
+    "Pricing",
+    0.031,
+    0,
+    0.0664,
+    0.0352,
+    0.0909
+   ],
+   [
+    "Courses",
+    0.0469,
+    0,
+    0.071,
+    0.0347,
+    0.0882
+   ],
+   [
+    "Career tracks",
+    0.0226,
+    0,
+    0.057,
+    0.0254,
+    0.0719
+   ],
+   [
+    "Career track certificate",
+    0.0101,
+    0,
+    0.0251,
+    0.0096,
+    0.0457
+   ],
+   [
+    "Resources center",
+    0.0134,
+    0,
+    0.0198,
+    0.0072,
+    0.038
+   ],
+   [
+    "Course certificate",
+    0.0008,
+    0,
+    0.0129,
+    0.0055,
+    0.0313
+   ],
+   [
+    "Upcoming courses",
+    0.0008,
+    0,
+    0.0052,
+    0.0021,
+    0.0167
+   ],
+   [
+    "Success stories",
+    0,
+    0,
+    0.0024,
+    0.0016,
+    0.0077
+   ],
+   [
+    "Instructors",
+    0.0008,
+    0,
+    0.0015,
+    0.0006,
+    0.0045
+   ],
+   [
+    "About us",
+    0,
+    0,
+    0.0008,
+    0.0005,
+    0.003
+   ],
+   [
+    "Blog",
+    0.0008,
+    0,
+    0.0012,
+    0.0006,
+    0.0028
+   ],
+   [
+    "nan",
+    0,
+    0,
+    0,
+    0,
+    0.0
+   ]
+  ]
+ },
+ "figures": [
+  [
+   "attribution.png",
+   "The models disagree, and the disagreement is the finding"
+  ]
+ ]
+}
